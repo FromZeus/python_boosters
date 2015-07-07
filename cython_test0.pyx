@@ -7,7 +7,7 @@ from libc.math cimport sqrt
 from libc.math cimport exp
 
 t1 = time.time()
-test_arr = np.arange(10000000)
+test_arr = np.arange(100000000)
 t2 = time.time()
 print t2 - t1
 

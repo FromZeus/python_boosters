@@ -9,7 +9,7 @@ import math
 #  def __init__():
 
 t1 = time.time()
-test_arr = np.arange(10000000)
+test_arr = np.arange(100000000)
 t2 = time.time()
 print t2 - t1
 #np.random.shuffle(test_arr)
